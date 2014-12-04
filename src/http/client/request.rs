@@ -89,7 +89,7 @@ use client::response::ResponseReader;
 pub struct RequestWriter<S = super::NetworkStream> {
     // The place to write to (typically a network stream, which is
     // io::net::tcp::TcpStream or an SSL wrapper around that)
-    stream: Option<BufferedStream<S>>,
+    pub stream: Option<BufferedStream<S>>,
     headers_written: bool,
 
     /// The originating IP address of the request.
