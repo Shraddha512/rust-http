@@ -1,3 +1,5 @@
+#Pull request for this project : https://github.com/servo/rust-http/pull/39/
+
 OBSOLETION NOTICE
 =================
 
